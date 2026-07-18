@@ -17,9 +17,6 @@ module DigitDriver(
     output logic [6:0] segments
 );
 
-
- // Active-LOW logic: 0 = Segment ON, 1 = Segment OFF
-// Vector order: display = {g, f, e, d, c, b, a}
 always_comb begin
     case(value)
         4'd0: segments = 7'b1000000; // Displays '0'
