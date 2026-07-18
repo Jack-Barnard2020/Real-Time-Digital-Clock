@@ -30,6 +30,8 @@ The control logic centers around a 4-state Finite State Machine allowing the sys
 3.  **`MINS` (Configuration State):** Pressing `KEY[3]` increments internal minutes (`0-59`).
 4.  **`SECS` (Configuration State):** Pressing `KEY[3]` increments internal seconds (`0-59`). Pressing `KEY[2]` while in this state saves adjustments and returns the system back to the `COUNT` state.
 
+![Image of FSM](state_machine.jpg)
+
 ---
 
 ## Project Architecture & Hierarchy
