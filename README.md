@@ -72,9 +72,7 @@ When prompted to select your hardware target, select the exact chip layout for t
 *   **Device:** 5CSEMA5F31C6
 
 ### 4. Apply Pin Assignments
-To skip manually configuring pins, map the hardware assignments instantly using the Terasic board layout settings provided in the repository:
-1. Go to **Tools** -> **Tcl Scripts...**
-2. Look for the project configuration file (or import the pin structure text as a `.tcl` execution string) and run the script. This configures standard pin rules for `CLOCK_50`, `HEX[0-5]`, `KEY[0-3]`, and `SW[0-9]` instantly.
+Make sure the `main.qsf` file is in the active working directory. Then compile the program. This will assign all used pins for you. 
 
 ### 5. Compile & Program
 1. Double-click **Start Compilation** in the tasks view dashboard.
