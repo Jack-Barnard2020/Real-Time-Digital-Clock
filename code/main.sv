@@ -74,8 +74,7 @@ assign DisplayedValue = (muxed_hour * 10_000) + (MM * 100) + SS;
 //  Instantiations
 // ===============
 
-// Desired clk need to be twice as fast as desired due to edge check
-ClockDivide #(.DesiredClk(2)) clock_divider (
+   ClockDivide #(.DesiredClk(1)) clock_divider (
     .clk(clk),
     .rst(rst),
     .clk_out(clk_out)
