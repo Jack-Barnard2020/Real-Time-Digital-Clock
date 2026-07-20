@@ -13,6 +13,7 @@
    - Now adjust clock with push buttons (Jack, Barnard, 2026/07/18)
    - Fixed 12/24 hour switching glitch mid-count (Jack Barnard, 2026/07/18)
    - Fixed slow clocking (Jack Barnard, 2026/07/18)
+   - Fixed clock over division (Jack Barnard, 2026/07/20)
    ============================= */
 /* ======== Parameter/Input/Output Table ========
    Input
